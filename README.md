@@ -18,7 +18,7 @@ This Python script allows you to easily deploy a local folder to a GitHub reposi
 
 5. Run the Script:
    ```bash
-   python main_script.py
+   python deploy.py
 
 6. Follow the Instructions:
 
