@@ -1,20 +1,28 @@
-# GitHub Folder Deployer
+# GitHub Deployment Script
 
-GitHub Folder Deployer is a Python script that automates the process of deploying a local folder to GitHub. It simplifies the steps of creating a new repository on GitHub, initializing a Git repository locally, committing the code, and pushing it to GitHub.
+This Python script allows you to easily deploy a local folder to a GitHub repository or delete an existing GitHub repository. It uses the PyGitHub library for GitHub interactions.
 
 ## Usage
 
 1. Clone or download the repository to your local machine.
+   ```bash
+   git clone https://github.com/your-username/your-repo.git
 
 2. Open a terminal and navigate to the folder containing the script.
 
-3. Run the script using the following command:
-
+3. Install required package
    ```bash
-   python3 deploy.py
-4. Follow the prompts to enter your GitHub username, repository name, local folder path, and GitHub personal access token.
+   pip install PyGithub
+4. Edit Configuration:
+   - Open the config.py file and replace GITHUB_USERNAME and GITHUB_PASSWORD with your GitHub credentials.
 
-5. The script will create a new repository on GitHub, initialize a Git repository locally, commit the code, and push it to the GitHub repository.
+5. Run the Script:
+   ```bash
+   python main_script.py
+
+6. Follow the Instructions:
+
+   - The script will guide you through the deployment process.
 
 ## Prerequisites
 
@@ -22,6 +30,7 @@ GitHub Folder Deployer is a Python script that automates the process of deployin
 
 ## Note
 
-  - Ensure that you have a GitHub account and a personal access token with the required permissions to create repositories.
-
-  - The script uses the GitHub REST API v3 for repository creation.
+  - This script uses PyGitHub, and you can install it using the provided command.
+  - Do not forget to replace the default values in config.py with your GitHub credentials.
+    
+### Contributions are welcome, feel free to open an issue.
