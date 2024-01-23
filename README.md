@@ -14,7 +14,7 @@ This Python script allows you to easily deploy a local folder to a GitHub reposi
    ```bash
    pip install PyGithub
 4. Edit Configuration:
-   - Open the config.py file and replace GITHUB_USERNAME and GITHUB_PASSWORD with your GitHub credentials.
+   - Open the config.py file and replace GITHUB_USERNAME and GITHUB_PASSWORD(github personal access token) with your GitHub credentials.
 
 5. Run the Script:
    ```bash
