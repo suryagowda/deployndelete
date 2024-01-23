@@ -1,4 +1,4 @@
 # config.py
 
-GITHUB_USERNAME = "suryagowda"
-GITHUB_PASSWORD = "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"
+GITHUB_USERNAME = "your_username"
+GITHUB_PASSWORD = "your_personal_access_token"
