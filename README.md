@@ -6,7 +6,7 @@ This Python script allows you to easily deploy a local folder to a GitHub reposi
 
 1. Clone or download the repository to your local machine.
    ```bash
-   git clone https://github.com/your-username/your-repo.git
+   https://github.com/suryagowda/deployndelete.git
 
 2. Open a terminal and navigate to the folder containing the script.
 
